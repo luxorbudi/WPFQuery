@@ -6,7 +6,7 @@
     xmlns:ViewModels="clr-namespace:Lens.ViewModels"
     xmlns:System="clr-namespace:System;assembly=mscorlib" 
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Lens.MainWindow" 
-    Title="Consultas Recaudos" Height="665" Width="959" ResizeMode="CanMinimize" 
+    Title="Consultas Recaudos" Height="665" Width="1192" ResizeMode="CanMinimize" 
     WindowStartupLocation="CenterScreen" Icon="icon.png">
 
     <Window.Resources>
@@ -21,20 +21,20 @@
             <ImageBrush ImageSource="./background.png"/>
         </Grid.Background>
 
-        <Border CornerRadius="20,0,20,0" Margin="23,28,746,532">
+        <Border CornerRadius="20,0,20,0" Margin="23,28,976,532">
             <Border.Background>
                 <ImageBrush ImageSource="./logo.png" Stretch="Fill"/>
             </Border.Background>
         </Border>
 
         <Label Content="CONSULTAS DE TABLAS DE RECAUDOS" 
-            HorizontalAlignment="Left" Margin="347,41,0,0" 
+            HorizontalAlignment="Left" Margin="456,41,0,0" 
             VerticalAlignment="Top" Height="39" Width="480" FontSize="24" 
             FontFamily="./resources/fonts/#Tiempos Headline" Foreground="White" />
 
         <Border BorderBrush="White" 
             BorderThickness="2" Padding="5" 
-            CornerRadius="10" Margin="23,122,746,18">
+            CornerRadius="10" Margin="23,122,976,18">
 
             <Grid>
                 <Grid x:Name="EnvironmentGrid">
